@@ -1,0 +1,80 @@
+// footer
+.footer {
+    background: #1D2530;
+    padding: 104px 0 78px;
+    .footer-container {
+        // background-color: red;
+        display: flex;
+        // justify-content: center;
+        gap: 126px;
+        // margin: 104px auto 78px;
+        .footer__left {
+            .footer__logo {
+                img {
+                    width: 81px;
+                    height: 59px;
+                }
+            }
+            .footer__logo__desc {
+                margin-top: 10px;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+        }
+        .footer__nav {
+            // background: #000;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            .footer__nav__menu {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .nav__menu-title {
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    color: #e4e8eb;
+                }
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 216px;
+                    li {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        color: #EEEFF4;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.extra__footer {
+    height: 72px;
+    background: #141B23;
+    .extra__footer-container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        .extra__footer__logo {
+            p {
+                height: 22px;
+                top: 19px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                font-feature-settings: 'salt' on, 'liga' off;
+                color: #D9DBE1;
+            }
+        }
+    }
+}

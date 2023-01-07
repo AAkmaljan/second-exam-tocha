@@ -1,0 +1,115 @@
+.comments {
+    background: rgba(242, 247, 255, 0.5);
+    backdrop-filter: blur(50px);
+    .comments-container {
+        .comments__part {
+            .title__line {
+                display: flex;
+                justify-content: center;
+                .comments__title {
+                    padding-top: 17px;
+                    padding-left: 142px;
+                    font-weight: 800;
+                    font-size: 46px;
+                    line-height: 64px;
+                    font-feature-settings: 'salt' on, 'liga' off;
+                    color: #1D2530;
+                }
+                .gg {
+                    position: relative;
+                    top: 0;
+                    left: 225px;
+                }
+            }
+            .comments__blog {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                padding-top: 10px;
+                .com__part {
+                    max-width: 540px;
+                    .comment-card {
+                        max-width: 540px;
+                        padding: 32px 32px 56px;
+                        background-color: #FFFFFF;
+                        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                        border-radius: 6px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 8px;
+                        .comment__title {
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 28px;
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            color: #18191F;
+                        }
+                        .full__comment {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 24px;
+                            text-align: center;
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            color: #18191F;
+                        }
+                    }
+                    .extra__figure {
+                        transform: rotate(45deg);
+                        background-color: #FFFFFF;
+                        // box-shadow: rgba(0, 0, 5, 0.15) 2.4px 2.4px 3.2px;
+                        width: 25px;
+                        height: 25px;
+                        position: relative;
+                        bottom: 15px;
+                        left: 260px;
+                    }
+                    .aothor__part {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 16px;
+                        padding-top: 14px;
+                        .author__text {
+                            .author__name {
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 28px;
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                color: #1D2530;
+                            }
+                            .author__source {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 24px;
+                                font-feature-settings: 'salt' on, 'liga' off;
+                                color: #1D2530;
+                            }
+                        }
+                    }
+                }
+            }
+            .ellipsis {
+                display: flex;
+                justify-content: center;
+                gap: 12px;
+                padding-top: 32px;
+                padding-bottom: 80px;
+                .violet__dot {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background: #685ED6;
+                    border: 1px solid #685ED6;
+                }
+                .empty__dot {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    opacity: 0.5;
+                    border: 2px solid #685ED6;
+                }
+            }
+        }
+    }
+}

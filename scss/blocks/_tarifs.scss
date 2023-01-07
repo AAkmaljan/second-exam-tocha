@@ -1,0 +1,90 @@
+.tarifs {
+    .tarifs-container {
+        .tarifs__part {
+            padding-top: 100px;
+            .tarifs__title {
+                font-weight: 800;
+                font-size: 46px;
+                line-height: 64px;
+                text-align: center;
+                font-feature-settings: 'salt' on, 'liga' off;
+                color: #1D2530;
+            }
+            .tarifs__desc {
+                padding-top: 16px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                text-align: center;
+                font-feature-settings: 'salt' on, 'liga' off;
+                color: #1D2530;
+                padding-bottom: 40px;
+            }
+            .offers {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                padding-bottom: 100px;
+                .offer-card {
+                    max-width: 350px;
+                    display: flex;
+                    flex-direction: column;
+                    background: #FCFEFF;
+                    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+                    border-radius: 6px;
+                    .offer__title {
+                        width: 100%;
+                        background: rgba(104, 94, 214, 0.05);
+                        padding: 7px;
+                        .of__title {
+                            font-weight: 800;
+                            font-size: 24px;
+                            line-height: 48px;
+                            color: #685ED6;
+                            text-align: center;
+                        }
+                    }
+                    .of__period {
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 40px;
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 40px;
+                        text-align: center;
+                        color: #1D2530;
+                    }
+                    .of__price {
+                        padding-top: 32px;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 30px;
+                        text-align: center;
+                        color: #1D2530;
+                    }
+                    button {
+                        padding: 12px 66px;
+                        // background: #685ED6;
+                        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+                        border-radius: 6px;
+                        border: none;
+                        margin: 46px auto;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 24px;
+                        font-feature-settings: 'salt' on, 'liga' off;
+                        color: #FFFFFF;
+                        .of__buy {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 24px;
+                            text-align: center;
+                            font-feature-settings: 'salt' on, 'liga' off;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
